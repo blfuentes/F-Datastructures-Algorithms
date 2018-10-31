@@ -1,1 +1,1 @@
-F# Datastructures Algorithms
+Learning F# Functional Data Structures and Algorithms
