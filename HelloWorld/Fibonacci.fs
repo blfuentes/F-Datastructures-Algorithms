@@ -6,6 +6,7 @@ let rec fibonacci n =
 
 let fibonacci_TailRecursive n =
     let rec fibonacciX (n, x, y) =
+        printfn "N: %A - X: %A - Y: %A" n x y 
         if (n = 0I) then x
         else fibonacciX ((n - 1I), y, (x + y))
     fibonacciX (n, 0I, 1I)
@@ -25,4 +26,7 @@ let rec fibonacci_Generic n =
         let result = fibonacciX n
         cache.[n] <- result
         result
+
+
+
  
