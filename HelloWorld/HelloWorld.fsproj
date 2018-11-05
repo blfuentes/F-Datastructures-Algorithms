@@ -51,6 +51,7 @@
     <Content Include="packages.config" />
     <Compile Include="Factorial.fs" />
     <Compile Include="Fibonacci.fs" />
+    <Compile Include="TowerOfHanoi.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">

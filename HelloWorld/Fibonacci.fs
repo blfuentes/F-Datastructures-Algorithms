@@ -7,7 +7,7 @@ let rec fibonacci n =
 let fibonacci_TailRecursive n =
     let rec fibonacciX (n, x, y) =
         if (n = 0I) then x
-        else fibonacciX ((n - 1I), y, (x+y))
+        else fibonacciX ((n - 1I), y, (x + y))
     fibonacciX (n, 0I, 1I)
 
 let result = fibonacci_TailRecursive 3I
