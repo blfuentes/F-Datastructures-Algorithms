@@ -52,6 +52,7 @@
     <Compile Include="Factorial.fs" />
     <Compile Include="Fibonacci.fs" />
     <Compile Include="TowerOfHanoi.fs" />
+    <Compile Include="Sorting.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
